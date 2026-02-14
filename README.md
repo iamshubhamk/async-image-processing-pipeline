@@ -13,17 +13,17 @@ The architecture separates ingestion from processing, ensuring high throughput a
 🏗 Architecture
 
 Client
-⬇
+->
 FastAPI (Async Ingestion Layer)
-⬇
+->
 AWS S3 (Object Storage)
-⬇
+->
 MongoDB (Metadata Store)
-⬇
+->
 Async Job Queue
-⬇
+->
 Worker Pool (Concurrent Processing)
-⬇
+->
 Database Status Update
 
 ⚡ Key Features
