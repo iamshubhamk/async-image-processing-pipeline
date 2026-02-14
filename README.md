@@ -77,16 +77,6 @@ Worker count configurable
 
 Clear separation of compute and storage
 
-📂 Project Structure
-async-image-processing-pipeline/
-│
-├── main.py              # FastAPI app & endpoints
-├── s3_service.py        # S3 upload/download logic
-├── db.py                # MongoDB connection & operations
-├── worker.py            # Async worker pool logic
-├── processing.py        # Image processing logic
-├── requirements.txt
-└── README.md
 
 🔄 Workflow
 Step 1 – Upload
