@@ -1,0 +1,6 @@
+FastAPI
+uvicorn
+python-multipart
+python-dotenv
+motor
+boto3
